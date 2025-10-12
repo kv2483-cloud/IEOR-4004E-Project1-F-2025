@@ -1,0 +1,22 @@
+# OS & editor junk
+.DS_Store
+*.swp
+*.log
+
+# Jupyter noise
+.ipynb_checkpoints/
+
+# Python build/cache
+__pycache__/
+*.pyc
+.venv/
+ENV/
+venv/
+
+# Large/derived outputs (optional)
+*.csv.zip
+*.parquet
+*.pickle
+
+# If data is sensitive, uncomment the next line to ignore all CSVs:
+# *.csv
